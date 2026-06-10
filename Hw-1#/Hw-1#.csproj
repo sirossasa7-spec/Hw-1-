@@ -11,12 +11,14 @@
   <ItemGroup>
     <Compile Remove="Part-3.cs" />
     <Compile Remove="Part-4.cs" />
+    <Compile Remove="Part-5.cs" />
     <Compile Remove="Program.cs" />
   </ItemGroup>
 
   <ItemGroup>
     <None Include="Part-3.cs" />
     <None Include="Part-4.cs" />
+    <None Include="Part-5.cs" />
     <None Include="Program.cs" />
   </ItemGroup>
 

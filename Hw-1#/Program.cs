@@ -81,6 +81,9 @@
             //Console.WriteLine($"Сума парних елементів A = {sumEvenA}");
             //Console.WriteLine($"Сума непарних стовпців B = {sumOddColumnsB}");
 
+
+
+
             //int[,] arr = new int[5, 5];
             //Random rnd = new Random();
 
