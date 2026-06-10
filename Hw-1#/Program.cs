@@ -81,56 +81,58 @@
             //Console.WriteLine($"Сума парних елементів A = {sumEvenA}");
             //Console.WriteLine($"Сума непарних стовпців B = {sumOddColumnsB}");
 
-            int[,] arr = new int[5, 5];
-            Random rnd = new Random();
+            //int[,] arr = new int[5, 5];
+            //Random rnd = new Random();
 
-            int min = 101, max = -101;
-            int minPos = 0, maxPos = 0;
+            //int min = 101, max = -101;
+            //int minPos = 0, maxPos = 0;
 
-            int index = 0;
+            //int index = 0;
 
-            for (int i = 0; i < 5; i++)
-            {
-                for (int j = 0; j < 5; j++)
-                {
-                    arr[i, j] = rnd.Next(-100, 101);
+            //for (int i = 0; i < 5; i++)
+            //{
+            //    for (int j = 0; j < 5; j++)
+            //    {
+            //        arr[i, j] = rnd.Next(-100, 101);
 
-                    if (arr[i, j] < min)
-                    {
-                        min = arr[i, j];
-                        minPos = index;
-                    }
+            //        if (arr[i, j] < min)
+            //        {
+            //            min = arr[i, j];
+            //            minPos = index;
+            //        }
 
-                    if (arr[i, j] > max)
-                    {
-                        max = arr[i, j];
-                        maxPos = index;
-                    }
+            //        if (arr[i, j] > max)
+            //        {
+            //            max = arr[i, j];
+            //            maxPos = index;
+            //        }
 
-                    Console.Write($"{arr[i, j],5}");
-                    index++;
-                }
-                Console.WriteLine();
-            }
+            //        Console.Write($"{arr[i, j],5}");
+            //        index++;
+            //    }
+            //    Console.WriteLine();
+            //}
 
-            int start = Math.Min(minPos, maxPos);
-            int end = Math.Max(minPos, maxPos);
+            //int start = Math.Min(minPos, maxPos);
+            //int end = Math.Max(minPos, maxPos);
 
-            int sum = 0;
-            index = 0;
+            //int sum = 0;
+            //index = 0;
 
-            for (int i = 0; i < 5; i++)
-            {
-                for (int j = 0; j < 5; j++)
-                {
-                    if (index > start && index < end)
-                        sum += arr[i, j];
+            //for (int i = 0; i < 5; i++)
+            //{
+            //    for (int j = 0; j < 5; j++)
+            //    {
+            //        if (index > start && index < end)
+            //            sum += arr[i, j];
 
-                    index++;
-                }
-            }
+            //        index++;
+            //    }
+            //}
 
-            Console.WriteLine($"\nСума між min та max = {sum}");
+            //Console.WriteLine($"\nСума між min та max = {sum}");
+
+
         }
     }
 }
